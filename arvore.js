@@ -1,4 +1,4 @@
-const treeNumber = prompt("Diga o bendito número:");
+const treeNumber = parseInt(prompt("Diga o bendito número:"), 10);
 const element = document.getElementById("div1");
 
 for (let i = 1; i <= treeNumber + Math.floor(treeNumber / 2); i++) {
